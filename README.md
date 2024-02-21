@@ -6,4 +6,6 @@
 
 
 Official implementation of 📖 [Making Reasoning Matter:
-Measuring and Improving Faithfulness of Chain-of-Thought Reasoning](https://arxiv.org/pdf/2304.01904.pdf) 🔗 [Blog Post](https://debjitpaul.github.io/reasoningmatter)
+Measuring and Improving Faithfulness of Chain-of-Thought Reasoning](https://arxiv.org/pdf/2304.01904.pdf) 
+
+🔗 [Blog Post](https://debjitpaul.github.io/reasoningmatter)
