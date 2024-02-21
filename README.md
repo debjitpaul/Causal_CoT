@@ -1,6 +1,6 @@
 # Making Reasoning Matter: Measuring and Improving Faithfulness of Chain-of-Thought Reasoning :rocket: 
 
-## Repo in Progress
+## Repo in Progress ...
 
 [![Python 3.9](https://img.shields.io/badge/python-3.9-blue.svg)](https://www.python.org/downloads/release/python-390/)
 [![MIT License](https://img.shields.io/github/license/m43/focal-loss-against-heuristics)](LICENSE)
