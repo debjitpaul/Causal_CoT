@@ -9,3 +9,14 @@ Official implementation of 📖 [Making Reasoning Matter:
 Measuring and Improving Faithfulness of Chain-of-Thought Reasoning](https://arxiv.org/pdf/2304.01904.pdf) 
 
 🔗 [Blog Post](https://debjitpaul.github.io/reasoningmatter)
+
+
+## 🔍 Contents
+
+- [🌟 Overview](#overview)
+- [🌟 Method](#method)
+- [🔥 Dependencies](#dependencies)
+- [🔥 Setup](#setup)
+- [🔥 Data](#data)
+- [🔥 Models](#models)
+- [🚩 Citation ](#citation)
