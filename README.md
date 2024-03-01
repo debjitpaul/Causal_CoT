@@ -31,6 +31,33 @@ Measuring and Improving Faithfulness of Chain-of-Thought Reasoning](https://arxi
 - dependencies can be installed using `requirements.txt`
 - The codebase is built around [Hugging Face](https://huggingface.co/) ecosystem and [wandb](https://wandb.ai/site) (for monitoring and experiment management).
 
+Install VirtualEnv using the following (optional):
+
+```shell
+$ [sudo] pip install virtualenv
+```
+
+Create and activate your virtual environment (optional):
+
+```shell
+$ virtualenv -p python3 venv
+$ source venv/bin/activate
+```
+
+Install all the required packages:
+
+```shell
+$ pip install -r requirements.txt
+```
+
+## Data 
+
+| Data                       | Reference                                                    | Output  | Description                                                  |
+| :-------------------------- | ------------------------------------------------------------ | ------- | ------------------------------------------------------------ |
+| Math Word Problem           | [📖](https://arxiv.org/pdf/2103.07191.pdf) , [🗂️](https://github.com/arkilpatel/SVAMP/tree/main/data/mawps-asdiv-a_svamp_without_questions), [🔗](https://github.com/arkilpatel/SVAMP) | CoT (z) and Answers (y) | Generate an equation given a math word problem question |
+| Sythethic Natural Language Reasoning          | [📖](https://crfm-helm.readthedocs.io/en/latest/) , [🗂️](https://github.com/stanford-crfm/helm), [🔗](https://github.com/stanford-crfm/helm/tree/main/src/helm/benchmark/scenarios) | Reasoning steps (z) and Conclusion (y) | This task requires the model to perform deductive reasoning and generate intermediate reasoning steps z and conclusions y using closed-world rules and facts. |
+| Moral Stories           | [📖](https://aclanthology.org/2021.emnlp-main.54.pdf) , [🗂️](https://tinyurl.com/moral-stories-data), [🔗](https://huggingface.co/datasets/demelin/moral_stories) | Moral Norm (z) and Moral Action (y) | Given a context x consisting of a situation, an intention, and an immoral action, the model needs to generate the moral norm z and the moral action y |
+
 
 ## Setup
 
