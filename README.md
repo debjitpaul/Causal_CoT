@@ -23,6 +23,15 @@ Measuring and Improving Faithfulness of Chain-of-Thought Reasoning](https://arxi
 - [🔥 Models](#models)
 - [🚩 Citation ](#citation)
 
+
+
+## Dependencies
+
+- compatible with python 3.8
+- dependencies can be installed using `requirements.txt`
+- The codebase is built around [Hugging Face](https://huggingface.co/) ecosystem and [wandb](https://wandb.ai/site) (for monitoring and experiment management).
+
+
 ## Setup
 
 
