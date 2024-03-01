@@ -23,6 +23,17 @@ Measuring and Improving Faithfulness of Chain-of-Thought Reasoning](https://arxi
 - [🔥 Models](#models)
 - [🚩 Citation ](#citation)
 
+## Setup
+
+
+Start by cloning the repository:
+
+```bash
+git clone git@github.com:debjitpaul/Causal_CoT.git
+```
+
+
+
   ## Citation
 
   ```
