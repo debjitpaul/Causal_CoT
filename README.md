@@ -26,12 +26,11 @@ Measuring and Improving Faithfulness of Chain-of-Thought Reasoning](https://arxi
   ## Citation
 
   ```
-@misc{debjit2024frodo,
+  @misc{debjit2024frodo,
     title={Making Reasoning Matter: Measuring and Improving Faithfulness of Chain-of-Thought Reasoning}, 
     author={Debjit Paul, Robert West, Antoine Bosselut and Boi Faltings}
     year={2024},
     eprint={2402.13950},
     archivePrefix={arXiv},
-    primaryClass={cs.CL}
-}
-```
+    primaryClass={cs.CL}}
+  ```
