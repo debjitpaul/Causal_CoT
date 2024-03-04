@@ -54,9 +54,9 @@ $ pip install -r requirements.txt
 
 | Data                       | Reference                                                    | Output  | Description                                                  |
 | :-------------------------- | ------------------------------------------------------------ | ------- | ------------------------------------------------------------ |
-| GSM8K          | [📖](https://arxiv.org/pdf/2103.07191.pdf) , [🗂️](https://github.com/arkilpatel/SVAMP/tree/main/data/mawps-asdiv-a_svamp_without_questions), [🔗](https://github.com/arkilpatel/SVAMP) | CoT (z) and Answers (y) | Generate an equation given a math word problem question |
-| StrategyQA          | [📖](https://crfm-helm.readthedocs.io/en/latest/) , [🗂️](https://github.com/stanford-crfm/helm), [🔗](https://github.com/stanford-crfm/helm/tree/main/src/helm/benchmark/scenarios) | Reasoning steps (z) and Conclusion (y) | This task requires the model to perform deductive reasoning and generate intermediate reasoning steps z and conclusions y using closed-world rules and facts. |
-| Causal Understanding          | [📖](https://aclanthology.org/2021.emnlp-main.54.pdf) , [🗂️](https://tinyurl.com/moral-stories-data), [🔗](https://huggingface.co/datasets/demelin/moral_stories) | Moral Norm (z) and Moral Action (y) | Given a context x consisting of a situation, an intention, and an immoral action, the model needs to generate the moral norm z and the moral action y |
+| GSM8K          | [📖](https://arxiv.org/pdf/2110.14168.pdf) , [🗂️](https://github.com/openai/grade-school-math/tree/master/grade_school_math/data)| CoT (z) and Answers (y) | Generate an equation given a math word problem question |
+| StrategyQA          | [📖]() , [🗂️](https://gith), [🔗](https://github.com/stanford-crfm/helm/tree/main/src/helm/benchmark/scenarios) | Reasoning steps (z) and Conclusion (y) | This task requires the model to perform deductive reasoning and generate intermediate reasoning steps z and conclusions y using closed-world rules and facts. |
+| Causal Understanding          | [📖](), [🗂️](https://tinyurl.com/moral-stories-data), [🔗](https://huggingface.co/datasets/demelin/moral_stories) | Moral Norm (z) and Moral Action (y) | Given a context x consisting of a situation, an intention, and an immoral action, the model needs to generate the moral norm z and the moral action y |
 
 
 ## Setup
