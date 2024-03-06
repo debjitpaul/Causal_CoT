@@ -12,7 +12,7 @@ Measuring and Improving Faithfulness of Chain-of-Thought Reasoning](https://arxi
 
 🔗 [Blog Post](https://debjitpaul.github.io/reasoningmatter)
 
-![Image](https://github.com/debjitpaul/Causal_CoT/img/image.png)
+![Image](img/image.png)
 
 
 ## 🔍 Contents
