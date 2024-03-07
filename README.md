@@ -54,12 +54,14 @@ $ pip install -r requirements.txt
 
 ## Data 
 
-| Data                       | Reference                                                    | Output  | Description                                                  |
-| :-------------------------- | ------------------------------------------------------------ | ------- | ------------------------------------------------------------ |
-| GSM8K          | [📖](https://arxiv.org/pdf/2110.14168.pdf) , [🗂️](https://github.com/openai/grade-school-math/tree/master/grade_school_math/data)| CoT (z) and Answers (y) | Generate an equation given a math word problem question |
-| StrategyQA          | [📖]() , [🗂️](https://gith), [🔗](https://github.com/stanford-crfm/helm/tree/main/src/helm/benchmark/scenarios) | Reasoning steps (z) and Conclusion (y) | This task requires the model to perform deductive reasoning and generate intermediate reasoning steps z and conclusions y using closed-world rules and facts. |
-| Causal Understanding          | [📖](), [🗂️](https://tinyurl.com/moral-stories-data), [🔗](https://huggingface.co/datasets/demelin/moral_stories) | Moral Norm (z) and Moral Action (y) | Given a context x consisting of a situation, an intention, and an immoral action, the model needs to generate the moral norm z and the moral action y |
-
+| Data                       | Reference                                                    | 
+| :-------------------------- | ------------------------------------------------------------ |
+| GSM8K          | [📖](https://arxiv.org/pdf/2110.14168.pdf) , [🗂️](https://github.com/openai/grade-school-math/tree/master/grade_school_math/data)| 
+| StrategyQA          | [📖]() , [🗂️](https://gith), [🔗](https://github.com/stanford-crfm/helm/tree/main/src/helm/benchmark/scenarios) | 
+| Causal Understanding          | [📖](), [🗂️](https://tinyurl.com/moral-stories-data), [🔗](https://huggingface.co/datasets/demelin/moral_stories) | 
+| OpenBookQA          | [📖](), [🗂️](https://tinyurl.com/moral-stories-data), [🔗](https://huggingface.co/datasets/demelin/moral_stories) |
+| QuaRel          | [📖](), [🗂️](https://tinyurl.com/moral-stories-data), [🔗](https://huggingface.co/datasets/demelin/moral_stories) | 
+| QASC         | [📖](), [🗂️](https://tinyurl.com/moral-stories-data), [🔗](https://huggingface.co/datasets/demelin/moral_stories) | 
 
 ## Setup
 
