@@ -11,7 +11,7 @@ Official implementation of FRODO (Framework for Faithful Reasoning Over Delibera
 ## Installation
 
 ```bash
-git clone https://github.com/epfl-nlp/Causal_CoT.git
+git clone https://github.com/Causal_CoT.git
 cd Causal_CoT
 pip install -r requirements.txt
 ```
