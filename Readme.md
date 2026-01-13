@@ -86,7 +86,7 @@ dpo_data = [
     {
         'question': 'Does a banana have more protein than an apple?',
         'preferred_reasoning': 'Step 1: Banana has 1.3g protein per 100g. Step 2: Apple has 0.3g. Step 3: 1.3 > 0.3.',
-        'dispreferred_reasoning': 'Step 1: Bananas are yellow. Step 2: Yellow means more protein.',
+        'dispreferred_reasoning': 'Step 1: Bananas are 0.3g protein per 100g. Step 2: Apple has 1.3g. Step 3: 1.3 > 0.3.',
     },
 ]
 ```
@@ -99,7 +99,7 @@ reasoning_data = [
         'question': 'Does a banana have more protein than an apple?',
         'reasoning': 'Step 1: Banana has 1.3g protein per 100g. Step 2: Apple has 0.3g. Step 3: 1.3 > 0.3.',
         'answer': 'Yes',
-        'counterfactual_reasoning': 'Step 1: Bananas are yellow. Step 2: Yellow means more protein.',
+        'counterfactual_reasoning': 'Step 1: Bananas are 0.3g protein per 100g. Step 2: Apple has 1.3g. Step 3: 1.3 > 0.3.',
     },
 ]
 ```
